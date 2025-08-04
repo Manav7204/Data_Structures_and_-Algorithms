@@ -1,0 +1,48 @@
+✅ Python Revision Questions (for DSA Prep)
+🔹 1. Basics: Variables, Types, I/O
+Take two inputs from the user and print their types.
+
+Swap two variables without using a third variable.
+
+Use type(), isinstance() to check data types.
+
+🔹 2. Strings
+Check if a string is palindrome without slicing.
+
+Count vowels, consonants, digits, and symbols in a string.
+
+Remove all duplicate characters from a string.
+
+🔹 3. Lists
+Reverse a list without using built-in methods.
+
+Sort a list manually using a loop (no sort()).
+
+Remove all occurrences of a given element from a list.
+
+🔹 4. Tuples
+Convert a tuple to list and back to tuple.
+
+Unpack a tuple into variables.
+
+🔹 5. Sets
+Find union, intersection, and difference of two sets.
+
+Remove duplicates from a list using set.
+
+🔹 6. Dictionaries
+Count character frequency in a string using dict.
+
+Merge two dictionaries.
+
+Get key(s) with the highest value.
+
+🔹 7. Functions
+Write a function with default and keyword arguments.
+
+Create a function that accepts any number of arguments (*args, **kwargs).
+
+🔹 8. Comprehensions
+Create a list of squares using list comprehension.
+
+Create a dictionary from two lists using dict comprehension.

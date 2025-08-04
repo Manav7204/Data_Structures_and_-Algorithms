@@ -1,0 +1,86 @@
+✅ Essential DSA Algorithms for Placement (Sorted by Category)
+📘 Basics (Compulsory)
+Linear Search
+
+Binary Search
+
+Bubble Sort
+
+Selection Sort
+
+Insertion Sort
+
+📊 Sorting (Efficient)
+Merge Sort
+
+Quick Sort
+
+Counting Sort (for integer-specific problems)
+
+🔁 Recursion & Backtracking
+Recursive Fibonacci & Factorial
+
+Subset generation (Power Set)
+
+Permutation generation
+
+N-Queens
+
+Sudoku Solver
+
+🔍 Searching Techniques
+Binary Search Variants (first/last occurrence, rotation, etc.)
+
+🧠 Greedy
+Activity Selection
+
+Fractional Knapsack
+
+Job Sequencing Problem
+
+Kruskal’s Algorithm
+
+Prim’s Algorithm
+
+🧩 Dynamic Programming (DP)
+0/1 Knapsack
+
+Longest Common Subsequence (LCS)
+
+Longest Increasing Subsequence (LIS)
+
+Coin Change (Min coins & ways)
+
+DP on Grids (min path sum, unique paths)
+
+🌐 Graph Algorithms
+BFS
+
+DFS
+
+Dijkstra’s Algorithm
+
+Topological Sort (using DFS)
+
+🌳 Trees
+Inorder, Preorder, Postorder traversal
+
+Level Order traversal (BFS)
+
+Binary Search Tree (Insert, Search)
+
+Lowest Common Ancestor (LCA)
+
+🪟 Sliding Window / Two Pointer
+Maximum sum subarray of size k
+
+Longest substring without repeating characters
+
+Subarrays with given sum
+
+⚡ Bit Manipulation
+Check if number is power of 2
+
+Count set bits
+
+XOR basics
