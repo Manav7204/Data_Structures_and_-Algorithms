@@ -1,5 +1,5 @@
 #include <iostream>
-using names                        pace std;
+using namespace std;
 
 int main() {
 
@@ -7,7 +7,7 @@ int main() {
     cout << "Enter temperature in celsius: " << endl;
     cin >> celsius;
 
-    float fahrenheit = (celsius*(9/5))+32;
+    float fahrenheit = ((celsius*9)/5)+32;
 
     cout << "Fahrenheit = " << fahrenheit << endl;
     return 0;
