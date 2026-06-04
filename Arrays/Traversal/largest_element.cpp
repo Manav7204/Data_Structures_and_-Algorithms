@@ -1,3 +1,23 @@
+// Problem: Largest Element in an Array
+
+// Given an array of integers arr of size N, find the largest element present in the array.
+
+// Example 1
+// Input:
+// arr = [2, 5, 1, 3, 0]
+
+// Output:
+// 5
+// Example 2
+// Input:
+// arr = [8, 10, 5, 7, 9]
+
+// Output:
+// 10
+// Constraints
+// 1 <= N <= 10^5
+// -10^9 <= arr[i] <= 10^9
+
 #include<iostream>
 #include<vector>
 using namespace std;

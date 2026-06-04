@@ -1,3 +1,37 @@
+// Problem 2
+
+// Topic: Arrays
+// Pattern: Traversal
+// Folder: Arrays/Traversal/
+
+// Problem: Second Largest Element
+
+// Given an array of integers arr, find the second largest distinct element.
+
+// If no second largest element exists, return -1.
+
+// Example 1
+// Input:
+// [12, 35, 1, 10, 34, 1]
+
+// Output:
+// 34
+// Example 2
+// Input:
+// [10, 10, 10]
+
+// Output:
+// -1
+// Example 3
+// Input:
+// [5, 8]
+
+// Output:
+// 5
+// Constraints
+// 1 <= N <= 10^5
+// -10^9 <= arr[i] <= 10^9
+
 #include<iostream>
 #include<vector>
 #include<climits>
