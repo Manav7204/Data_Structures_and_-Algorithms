@@ -1,46 +1,64 @@
-// Problem 3
+// Problem 4
 
 // Topic: Arrays
-// Pattern: Traversal
-// Folder: Arrays/Traversal/
+// Pattern: In-Place Operations
+// Folder: Arrays/In_Place_Operations/
 
-// Problem: Check if Array is Sorted
+// Problem: Remove Duplicates from Sorted Array
 
-// Given an array arr of size N, determine whether the array is sorted in non-decreasing order.
+// Given a sorted array, remove the duplicates in-place and return the number of unique elements.
 
-// Return:
-
-// true  -> if sorted
-// false -> otherwise
 // Example 1
 // Input:
-// [1, 2, 2, 3, 4]
+// [1,1,2,2,3]
 
 // Output:
-// true
+// 3
+
+// Array becomes:
+// [1,2,3,...]
 // Example 2
 // Input:
-// [1, 3, 2, 4]
+// [1,1,1,1]
 
 // Output:
-// false
+// 1
 // Example 3
 // Input:
-// [-5, -2, -2, 0]
+// [1,2,3,4]
 
 // Output:
-// true
-// Think Before Coding
+// 4
+// Constraints
+// Array is sorted.
 
-// Instead of comparing every element with every other element:
+#include<iostream>
+#include<vector>
+using namespace std;
 
-// Ask:
+int check_largest(const vector<int>& arr)
+{
 
-// Is every element <= the next element?
+}
 
-// What happens the moment you find:
+int main()
+{
 
-// arr[i] > arr[i+1]
+    int n;
+    vector<int> v;
 
-// Can you stop early?
+    cout << "Enter the size of array:" << endl;
+    cin >> n;
 
+    cout << "Enter the array elements:" << endl;
+
+    for (int i = 0; i<n; i++) {
+        int x;
+        cin >> x;
+        v.push_back(x);
+    }
+
+    cout << " " << endl;
+
+    return 0;
+}
