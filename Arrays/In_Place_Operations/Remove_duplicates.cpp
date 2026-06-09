@@ -32,13 +32,28 @@
 // Constraints
 // Array is sorted.
 
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int check_largest(const vector<int>& arr)
+int count_of_elements(vector<int> &arr)
 {
+    if(arr.size() == 0)
+    {
+        return 0;
+    }
 
+    int i = 0;
+    for (int j = 0; j < arr.size(); j++)
+    {
+        if(arr[i] != arr[j])
+        {
+            i++;
+            arr[i] = arr[j];
+        }
+    }
+
+    return i+1;
 }
 
 int main()
@@ -52,13 +67,14 @@ int main()
 
     cout << "Enter the array elements:" << endl;
 
-    for (int i = 0; i<n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         int x;
         cin >> x;
         v.push_back(x);
     }
 
-    cout << " " << endl;
+    cout << "Nummber of unique elements: " << count_of_elements(v) << endl;
 
     return 0;
 }
